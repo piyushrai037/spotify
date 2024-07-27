@@ -75,7 +75,7 @@ const playMusic = (track, pause = false) => {
 
 async function displayAlbums() {
     console.log("displaying albums");
-    let a = await fetch(`/songs/`);
+    let a = await fetch(`https://github.com/piyushrai037/spotify/songs/`);
     if (!a.ok) {
         console.error(`Error fetching albums`);
         return;
